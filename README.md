@@ -7,11 +7,11 @@
 
 ## 📚 Table of Contents
 
-- [📖 Overview](#-overview)
-- [🏗️ Architecture](#-architecture)
-- [⚙️ Prerequisites](#-prerequisites)
-- [🧪 System Setup](#-system-setup)
-- [📬 Contact](#-contact)
+- [📖 Overview](#overview)
+- [🏗️ Architecture](#architecture)
+- [⚙️ Prerequisites](#prerequisites)
+- [🧪 System Setup](#system-setup)
+- [📬 Contact](#contact)
 
 ---
 
@@ -30,7 +30,7 @@ Perfect for data engineers looking to scale Reddit data pipelines in the cloud!
 
 ## 🏗️ Architecture
 
-![RedditDataEngineering.png](assets%2FRedditDataEngineering.png)
+![RedditDataEngineering](https://github.com/user-attachments/assets/6f2481c8-8dad-41f1-8e03-798b2714f199)
 
 ### 🔧 **Components:**
 
