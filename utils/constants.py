@@ -28,7 +28,6 @@ POST_FIELDS = (
     'title',
     'selftext',
     'score',
-    'upvote_ratio',
     'num_comments',
     'author',
     'created_utc',
