@@ -3,20 +3,9 @@
 
 **RedditFlow** is a powerful, scalable ETL pipeline built to extract Reddit data, transform it using AWS services, and load it into an Amazon Redshift data warehouse — all orchestrated using Apache Airflow. It's designed for cloud-native data engineering and analytics workflows.
 
----
-
-## 📚 Table of Contents
-
-- [📖 Overview](#overview)
-- [🏗️ Architecture](#architecture)
-- [⚙️ Prerequisites](#prerequisites)
-- [🧪 System Setup](#system-setup)
-- [📬 Contact](#contact)
-
----
 
 ## 📖 Overview
-
+Overview
 RedditFlow enables you to:
 
 1. 🔍 **Extract** data from Reddit via its official API  
