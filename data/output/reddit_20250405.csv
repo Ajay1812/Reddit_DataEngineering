@@ -1,0 +1,167 @@
+id,title,selftext,score,upvote_ratio,num_comments,author,created_utc,url,over_18,edited,spoiler,stickied
+1jr68kn,Are Hyperscalers becoming more expensive in Europe due to the tariffs?,"Hi,
+
+With the recent tariffs in mind, are cloud providers like AWS, Azure, and Google Cloud becoming more expensive for European companies? And what about other techs like Snowflake or Databricks – are they affected too?
+
+Would it be wise for European businesses to consider open-source alternatives, both for cost and strategic independence?
+
+And from a personal perspective: should we, as employees, expand our skill sets toward open-source tech stacks to stay future-proof?",33,0,28,Ok-Inspection3886,2025-04-04 07:31:32,https://www.reddit.com/r/dataengineering/comments/1jr68kn/are_hyperscalers_becoming_more_expensive_in/,False,False,False,False
+1jrua8r,How to spot “just do the work” teams at big tech companies during interviews,"Hey!
+
+I’m looking for advice on Data Engineering careers.
+
+In interviews, managers often promise high-impact projects, lots of autonomy, and fast growth. But once you’re in, you might end up stuck doing the same narrow task for years.
+
+In my experience, embedded DE roles in big tech aren't well-positioned to proactively drive the kind of high-impact work needed for Senior/Staff levels because:
+
+* The work is inherently support-focused, making it hard to take broad ownership or show clear impact
+* Architectural decisions come from platform teams
+* DS/Analytics teams often lead early investigations, and DEs are brought in late
+* Managers are usually from DS / Analytics backgrounds, not engineering
+
+In smaller companies, I had more room to blend embedded DE work (ETL, modeling) with platform responsibilities (architecture, tooling). But those companies pay less and lack big-name recognition.
+
+I’m starting to think embedded DE roles are a dead end. Maybe I should focus on platform teams or pivot to a DE+ML role at a mid-sized company after some self-study.
+
+Would love to hear your thoughts.",17,0,0,Volody_,2025-04-05 03:25:58,https://www.reddit.com/r/dataengineering/comments/1jrua8r/how_to_spot_just_do_the_work_teams_at_big_tech/,False,False,False,False
+1jrpm5h,Is Apache NiFi a Good Choice for a Final Year Project Compared to SSIS?,"I chose to use Apache NiFi for my final year project, and I’d like to hear your opinion. Is it worth it, or should I just use SSIS instead? Does Apache NiFi have demand in the job market?",7,0,8,BoringMeasurement263,2025-04-04 23:17:49,https://www.reddit.com/r/dataengineering/comments/1jrpm5h/is_apache_nifi_a_good_choice_for_a_final_year/,False,False,False,False
+1jrfp85,Data Engineer Consulting Rate?,"I currently work as a mid-level DE (3y) and I’ve recently been offered an opportunity in Consulting. I’m clueless what rate I should ask for. Should it be 25% more than what I currently earn? 50% more? Double!? 
+
+I know that leaping into consulting means compromising job stability and higher expectations for deliveries, so I want to ask for a much higher rate without high or low balling a ridiculous offer. Does someone have experience going from DE to consultant DE? Thanks!",7,0,20,ActRepresentative378,2025-04-04 16:11:28,https://www.reddit.com/r/dataengineering/comments/1jrfp85/data_engineer_consulting_rate/,False,False,False,False
+1jr70yg,Which tool do you use to move data from the cloud to Snowflake?,"Hey, r/dataengineering 
+
+I’m working on a project where I need to move data from our cloud-hosted databases into Snowflake, and I’m trying to figure out the best tool for the job. Ideally, I’d like something that’s cost-effective and scales well. 
+
+If you’ve done this before, what did you use?
+Would love to hear about your experience—how reliable it is, how much it roughly costs, and any pros/cons you’ve noticed. Appreciate any insights!
+
+[View Poll](https://www.reddit.com/poll/1jr70yg)",8,0,15,Many-Tart-7661,2025-04-04 08:30:40,https://www.reddit.com/r/dataengineering/comments/1jr70yg/which_tool_do_you_use_to_move_data_from_the_cloud/,False,False,False,False
+1jre0v2,Logging in Spark applications.,"Hi guys, i am moving to on-prem managed Spark applications with Kuberenetes. I am wondering what do u use for logging? I am talking about Python and PySpark. Do u setup log4j? Or just use Python's logging library for application? What is the standard here? I have not seen much about log4j within PySpark.",5,0,2,Hot_While_6471,2025-04-04 15:01:43,https://www.reddit.com/r/dataengineering/comments/1jre0v2/logging_in_spark_applications/,False,False,False,False
+1jrdue4,Anyone know of any vscode linter for sql that can accommodate pyspark sql?,"In pyspark 3.4 you can write sql as 
+
+spark.sql(SELECT * FROM {df_input}, df_input = df_input) 
+
+The popular sql linters I tried SQL Formatter and and Prettier SQL Vscode currently does not accommodate{}. Does anyone know of any linters that does? Thank you",6,0,1,AUGcodon,2025-04-04 14:54:19,https://www.reddit.com/r/dataengineering/comments/1jrdue4/anyone_know_of_any_vscode_linter_for_sql_that_can/,False,False,False,False
+1jramqt,"Airbyte Connector Builder now supports GraphQL, Async Requests and Custom Components","Hello, Marcos from the Airbyte Team.
+
+For those who may not be familiar, Airbyte is an open-source data integration (EL) platform with over 500 connectors for APIs, databases, and file storage.
+
+In our last release we added several new features to our no-code Connector Builder:
+
+* [GraphQL Support](https://docs.airbyte.com/connector-development/config-based/understanding-the-yaml-file/request-options#graphql-request-injection): In addition to REST, you can now make requests to GraphQL APIs (and properly handle pagination!)
+* [Async Data Requests](https://docs.airbyte.com/connector-development/connector-builder-ui/async-streams): There are some reporting APIs that do not return responses immediately. For instance, with Google Ads.  You can now request a custom report from these sources and wait for the report to be processed and downloaded.
+* [Custom Python Code Components](https://docs.airbyte.com/connector-development/connector-builder-ui/custom-components): We recognize that some APIs behave uniquely—for example, by returning records as key-value pairs instead of arrays or by not ordering data correctly. To address these cases, our open-source platform now supports custom Python components that extend the capabilities of the no-code framework without blocking you from building your connector.
+
+We believe these updates will make connector development faster and more accessible, helping you get the most out of your data integration projects.
+
+We understand there are discussions about the trade-offs between no-code and low-code solutions. At Airbyte, transitioning from fully coded connectors to a low-code approach allowed us to maintain a large connector catalog using standard components.  We were also able to create a better build and test process directly in the UI. Users frequently give us the feedback that the no-code connector Builder enables less technical users to create and ship connectors. This reduces the workload on senior data engineers allowing them to focus on critical data pipelines.
+
+Something else that has been top of mind is speed and performance. With a robust and stable connector framework, the engineering team has been dedicating significant resources to introduce concurrency to enhance sync speed. You can read this[ blog post](https://airbyte.com/blog/improving-connector-sync-speed-up-to-10x-faster) about how the team implemented concurrency in the Klaviyo connector, resulting in a speed increase of about 10x for syncs.
+
+I hope you like the news! Let me know if you want to discuss any missing features or provide feedback about Airbyte.",4,0,2,marcos_airbyte,2025-04-04 12:26:58,https://www.reddit.com/r/dataengineering/comments/1jramqt/airbyte_connector_builder_now_supports_graphql/,False,False,False,False
+1jr6a6h,How to stream results of a complex SQL query,"Hello,
+
+I'm writing you because I have a problem with a side project and maybe here somebody can help me. I have to run a complex query with a potentially high number of results and it takes a lot of time. However, for my project I don't need all the results to be showed together, perhaps after some hours/days. It would be much more useful to get a stream of the partial results in real time. How can I achieve this? I would prefer to use free software, however please suggest me any solution you have in mind.
+
+Thank you in advance!",5,1,12,forevernevermore_,2025-04-04 07:35:07,https://www.reddit.com/r/dataengineering/comments/1jr6a6h/how_to_stream_results_of_a_complex_sql_query/,False,False,False,False
+1jrohrl,Question about file sync,"Pardon the noob question. I'm building a simple ETL process using Airflow on a remote Linux server and need a way for users to upload input files and download processed files.
+
+I would prefer a method that is easy to use for users like a shared drive (like Google Drive).
+
+I've considered Syncthing, and in the worst case, SFTP access. What solutions do you typically use or recommend for this? Thanks!",3,0,1,CraftedLove,2025-04-04 22:25:11,https://www.reddit.com/r/dataengineering/comments/1jrohrl/question_about_file_sync/,False,False,False,False
+1jrm80y,Marketing Report & Fivetran,"Fishing for advice as I'm sure many have been here before. I came from DE at a SaaS company where I was more focused on the infra but now I'm in a role much close to the business and currently working with marketing. I'm sure this could make the Top-5 all time repeated DE tasks. A daily marketing report showing metrics like Spend, cost-per-click, engagement rate, cost-add-to-cart, cost-per-traffic... etc. These are per campaign based on various data sources like GA4, Google Ads, Facebook Ads, TikTok etc. Data updates once a day.
+
+It should be obvious I'm not writing API connectors for a dozen different services. I'm just one person doing this and have many other things to do. I have Fivetran up and running getting the data I need but MY GOD is it ever expensive for something that seems like it should be simple, infrequent & low volume. It comes with a ton of build in reports that I don't even need sucking rows and bloating the bill. I can't seem to get what I need without pulling millions of event rows which costs a fortune to do.
+
+Are there other similar but (way) cheaper solutions are out there? I know of others but any recommendations for this specific purpose?",2,0,7,bcsamsquanch,2025-04-04 20:45:27,https://www.reddit.com/r/dataengineering/comments/1jrm80y/marketing_report_fivetran/,False,False,False,False
+1jrd8po,PII Obfuscation in Databricks,"Hi Data Champs,
+
+I have been recently given chance to explore PII obfuscation technique in databricks.
+
+I proposed using sql aes_encryption or python fernet for PII column level encryption before landing to bronze.
+
+And use column masking on delta tables which has built in logic for group membership check and decryption so to avoid the overhead of a new view per table.
+
+My HDE was more interested in sql approach than the fernet but fernet offers built in key rotation out of the box.
+
+Has anyone used aes_encryption 
+Is it secure, easy to work with and relatively more robust.
+
+From my experience for data type other than binary like long, int, double it needs to be first converted to binary (don’t like it)
+
+Apart from that usual error here and there for padding and generic error when decrypting sometimes.
+
+So given the choice what will be your architecture 
+
+What you will prefer, what you don’t and why
+
+I am open to DM if you wanna 💬 ",2,0,1,Intelligent-Mind8510,2025-04-04 14:28:31,https://www.reddit.com/r/dataengineering/comments/1jrd8po/pii_obfuscation_in_databricks/,False,False,False,False
+1jrvd3e,Unit Testing,"Hello Folks,
+
+I work on Azure Databricks,Python,Snowflake .
+
+We are trying to build a Unit Testing Framework
+
+I have explored options like Great Expectations,Sodacore 
+
+Did anyone explore any other libraries.
+
+Can you please point some reference.
+
+Also any documentation on what Unit Testing should cover and those which fall beyond the scope of Unit Testing.
+
+Thanks",1,1,0,nifty60,2025-04-05 04:28:51,https://www.reddit.com/r/dataengineering/comments/1jrvd3e/unit_testing/,False,False,False,False
+1jrr1x9,Improving data entry quality over or in excel?,"The place I work, because of the industry and because of the age and experience of the folks working here, is basically married to manually-entered excel spreadsheets, some of which are eventually ingested (in an extremely byzantine way) into a SQL Server database. We are stuck in an Azure stack, and there are some scripts that are reading the contents of spreadsheets for ingestion.
+
+The data has Problems, a lot of the time, which is, of course, because people are entering data in Excel by hand. Nothing is validated when folks save things; there are copy-paste errors. Some files are created by external consultants using templates we provide, and the quality is not great. There are parts of the workflow that are entirely redundant, like taking data that one person typed into a spreadsheet, saved as a pdf, and then copying it into a new spreadsheet by hand.
+
+Have you ever engineered a system to improve a situation like this? What did you do?",1,0,4,finite_user_names,2025-04-05 00:29:17,https://www.reddit.com/r/dataengineering/comments/1jrr1x9/improving_data_entry_quality_over_or_in_excel/,False,False,False,False
+1jrd0k2,Great Expectations Implementation,"Our company is implementing data quality testing and we are interested in borrowing from the Great Expectations suite of open source tests. I've read mostly negative reviews of the initial implementation of Great Expectations, but am curious if anyone else set up a much more lightweight configuration?
+
+Ultimately, we plan to use the GX python code to run tests on data in Snowflake and then make the results available in Snowflake. Has anyone done something similar to this?",1,0,2,HAKOC534,2025-04-04 14:18:53,https://www.reddit.com/r/dataengineering/comments/1jrd0k2/great_expectations_implementation/,False,False,False,False
+1jrc62b,Can you call an aimless star schema a data mart?,"So,
+
+  
+as always that's for the insight from other people, I find a lot of these discussions around points very entertaining and very helpful!
+
+I'm having an argument with someone who is several levels above me. This might sound petty so I apologise in advance. It centres around the definition of a Mart. Our Mart is a single Fact with around 20 dimensions. The Fact is extremely wide and deep. Indeed we usually put it into a de normalised table for reporting. To me this isn't a MART as it isn't based on requirements but rather a star schema that supposedly servers multiple purposed or potential purposes. When engaged on requirements the person leans on there experience in the domain and says a user probable wants to do X, Y and Z. I've never seen anything written down. Constantly that report also defers to Kimball methodology and how this follows them closely. My take on the book is that these things need to be based of requirement, business requirements. 
+
+My questions is, is it fair to say that a data mart needs to have requirements and ideally a business domain in mind or else its just a star schema?
+
+Yes this  is  very theoretical... yes I probable need a hobby but look there hasn't been a decent RTS game in years and its friday!!!
+
+Have a good weekend everyone",1,0,3,ObjectiveAssist7177,2025-04-04 13:41:31,https://www.reddit.com/r/dataengineering/comments/1jrc62b/can_you_call_an_aimless_star_schema_a_data_mart/,False,False,False,False
+1jrbgqt,Data Engineering Performance -  Authors,I having worked in BI and transitioned to DE have followed best practices reading books by authors like Ralph Kimball in BI. Is there someone in DE with a similar level of reputation. I am not looking for specific technologies but rather want to pick up DE fundamentals especially in the performance and optimization space.,1,0,1,Amar_K1,2025-04-04 13:08:48,https://www.reddit.com/r/dataengineering/comments/1jrbgqt/data_engineering_performance_authors/,False,False,False,False
+1jravos,Unstructured Data,"I see this has been asked prior but I didn't see a clear answer. We have a smallish database (glorified spreadsheet) where one field contains text. It houses details regarding customers, etc calling in for various issues. For various reasons (in-house) they want to keep using the simple app (it's a SharePoint List). I can easily download the data to a CSV file, for example, but is there a fairly simple method (AI?) to make sense of this data and correlate it? Maybe a creative prompt? Or is there a tool for this? (I'm not a software engineer). Thanks!",1,0,5,Top_Sink9871,2025-04-04 12:39:42,https://www.reddit.com/r/dataengineering/comments/1jravos/unstructured_data/,False,False,False,False
+1jr6oc9,Do you need statistics to land a DE job?,"As the title suggests. Even if stats are not used on the job, will having stats qualifications give me an edge in the hiring process?",2,0,21,Normal-Bandicoot-180,2025-04-04 08:03:59,https://www.reddit.com/r/dataengineering/comments/1jr6oc9/do_you_need_statistics_to_land_a_de_job/,False,False,False,False
+1jrr3l3,How would you approach building a national data infrastructure from scratch in a country that has never done it before?,"Not sure if this is the right sub to ask this — sorry in advance if it’s not allowed or goes against the rules.
+
+Imagine a country that has never systematically collected, analyzed, or used its data — whether it’s related to the economy, health, transportation, population, environment, or anything else.
+If you were tasked with creating this entire system from scratch — from data collection to analysis, strategic use, and visualization — how would you go about it?
+What tools, methods, teams, or priorities would you start with?
+What common pitfalls would you try to avoid?
+I’m really curious to hear how you’d structure it, whether from a technical, strategic, or organizational perspective.
+
+I’m asking this because I’m very interested in data and how it can shape policy and development — and my country, Algeria, is exactly in this situation: very little structured data collection or usage so far, and still heavily reliant on paper-based systems across most institutions.",0,0,2,TheSoftBread,2025-04-05 00:31:35,https://www.reddit.com/r/dataengineering/comments/1jrr3l3/how_would_you_approach_building_a_national_data/,False,False,False,False
+1jrqetm,Applied Statistics MSc to get into entry-level DE role?,"Hey all,
+
+I am due to begin an MSc in Computer Science & Business in September 2025 which covers some DE contents.
+
+My dilemma is whether I should additionally pursue a part-time 2-year Applied Statistics MSc to give myself a better edge in the hiring process for DE roles.
+
+I am aware DEs hardly ever use any stats but many people transition from DS/DA roles (which are stats-heavy) into DE, and that entry-level DE roles do not really exist, hence was wondering if I will need the background in stats to get my foot on the door (or path) by becoming a DA first and taking it from there.
+
+For context, my bachelors was not in STEM and my job, whilst it requires some level of analytical thinking and numeracy, is not quantitative either.
+
+Any advice would be appreciated (the stats MSc tuition fees are 16K, would be great to be sure it's a worthwhile investment lol)
+
+Thanks!!",0,0,5,Normal-Bandicoot-180,2025-04-04 23:57:22,https://www.reddit.com/r/dataengineering/comments/1jrqetm/applied_statistics_msc_to_get_into_entrylevel_de/,False,False,False,False
+1jrd286,Just wanted to share a recent win that made our whole team feel pretty good.,"We worked with this e-commerce client last month (kitchen products company, can't name names) who was dealing with data chaos.
+
+When they came to us, their situation was rough. Dashboards taking forever to load, some poor analyst manually combining data from 5 different sources, and their CEO breathing down everyone's neck for daily conversion reports. Classic spreadsheet hell that we've all seen before.
+
+We spent about two weeks redesigning their entire data architecture. Built them a proper [**data warehouse solution** ](https://datafortune.com/services/enterprise-data-management/data-warehouse/)with automated ETL pipelines that consolidated everything into one central location. Created some logical data models and connected it all to their existing BI tools.
+
+The transformation was honestly pretty incredible to watch. Reports that used to take hours now run in seconds. Their analyst actually took a vacation for the first time in a year. And we got this really nice email from their CTO saying we'd ""changed how they make decisions"" which gave us all the warm fuzzies.
+
+It's projects like these that remind us why we got into this field in the first place. There's something so satisfying about taking a messy data situation and turning it into something clean and efficient that actually helps people do their jobs better.",0,0,9,DataMaster2025,2025-04-04 14:20:44,https://www.reddit.com/r/dataengineering/comments/1jrd286/just_wanted_to_share_a_recent_win_that_made_our/,False,False,False,False
