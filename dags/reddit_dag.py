@@ -38,7 +38,6 @@ extract = PythonOperator(
 )
 
 # updload to s3
-
 upload_s3 = PythonOperator(
     task_id = 's3_upload',
     python_callable = upload_s3_pipeline,
